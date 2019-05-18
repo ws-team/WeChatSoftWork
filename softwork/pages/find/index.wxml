@@ -1,0 +1,32 @@
+<scroll-view 
+    scroll-y
+    style="height: 100%"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+>
+    <view class = "up">
+        <view class="search">  
+          <view class="search_arr">  
+            <icon class="searchicon" size='20' type='search'></icon>  
+            <input class="" auto-focus placeholder="请输入关键字" value="{{searchValue}}"/>  
+          </view>  
+        </view>  
+        <view class='search_button'>
+            搜索
+        </view>  
+    </view>
+
+    <view class = "middle">
+        <view class = "first">一楼</view>
+        <view class = "second">二楼</view>
+        <view class = "thind">三楼</view>
+        <view class = "last">清真</view>
+    </view>
+
+  
+
+
+
+
+</scroll-view> 
+   

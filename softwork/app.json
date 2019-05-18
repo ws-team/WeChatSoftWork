@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs/index",
+    "pages/post/post",
+    "pages/post2/index",
+    "pages/focus/index",
+    "pages/myself/index",
+    "pages/find/index",
+    "pages/test/test",
+    "pages/Search/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "BUAA微食堂"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#ff3333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouye2.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "image/faxian.png",
+        "selectedIconPath": "image/faxian2.png"
+      },
+      {
+        "pagePath": "pages/focus/index",
+        "text": "推荐",
+        "iconPath": "image/tuijian.png",
+        "selectedIconPath": "image/tuijian2.png"
+      },
+      {
+        "pagePath": "pages/myself/index",
+        "text": "我的",
+        "iconPath": "image/wode.png",
+        "selectedIconPath": "image/wode2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+
+<view class="myself">
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view class = 'down'>
+  
+   <view class = "in_down"> 统记</view>
+   <view class = "in_down"> 支出</view>
+   <view class = "in_down"> 设置</view>
+   <view class = "in_down"> 吐个槽</view>
+   <view class = "in_down"> 分享小程序</view>
+   
+</view>

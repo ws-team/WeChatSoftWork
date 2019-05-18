@@ -1,0 +1,14 @@
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: first start;
+}
+.section1{
+  background: green;
+  width: 150px;
+  height: 100px;
+}/* pages/post/post.wxss *//* pages/post2/index.wxss */

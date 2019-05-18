@@ -1,0 +1,222 @@
+<scroll-view 
+    scroll-y
+    style="height: 100%;justify-content: center;"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+
+>
+    <view class = "up">
+        <view class="search">  
+          <view class="search_arr">  
+            <icon class="searchicon" size='20' type='search'></icon> 
+            <view bindtap = "SearchFocus" class = "searchDemo">
+            请输入关键字
+            </view> 
+          </view>  
+        </view>  
+    </view>
+<view class = "middle">
+    <view class = "middle2">
+       <view class = "middle2_line">
+          <view class = "middle2_item" wx:for="{{imageArray}}">
+             <view class = "view_image">
+                <image class = "middle2_image" src="{{item.image}}"></image>
+             </view>
+             <view class = "middle2_text">{{item.name}}</view>
+          </view>
+
+         
+       </view>
+        <view class = "middle2_line">
+          
+         
+          <view class = "middle2_item" wx:for="{{imageArray2}}">
+             <view class = "view_image">
+                <image class = "middle2_image" src="{{item.image}}"></image>
+             </view>
+             <view class = "middle2_text">{{item.name}}</view>
+          </view>
+        </view>
+         
+       </view>
+</view>
+      
+    <view class="Atext">————— 美食推荐 —————</view>
+  
+
+
+    <view class = "view_swiper">
+  <swiper class="swiper" autoplay="true" interval="2000" indicator-dots="true" indicator-color="#DDDDDD"
+  indicator-active-color = "#FFFFFF" circular="true" duration="800"
+  >
+    <swiper-item>
+      <image src="/image/food1.jpg"></image>
+      <image src="/image/food1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/food2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/food3.jpg"></image>
+    </swiper-item>
+ 
+  </swiper>
+
+  <view class="Atext">————— 食物列表 —————</view>
+  
+ 
+</view>
+
+    <view class = "down">
+
+
+          <view class = "test">
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food1.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+            </view>
+
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food2.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+           </view>
+        </view>
+
+
+
+
+         <view class = "test">
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food1.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+            </view>
+
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food2.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+           </view>
+        </view>
+          
+
+       
+         
+         <view class = "test">
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food3.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+            </view>
+
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food4.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+           </view>
+        </view>
+        <view class = "test">
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food2.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+            </view>
+
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food1.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+           </view>
+        </view>
+        
+         <view class = "test">
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food4.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+            </view>
+
+            <view class = "down_one" bindtap='go'>
+              <image class ="image_one" src = '/image/food3.jpg' ></image>
+              <view class = "name">
+                  <text class = "food_name"> 食物名字</text>
+                  
+              </view>
+                 
+              <view class = "message">
+                  <text class = "price"> ¥6:00 </text>
+                  <text class = "place"> 食堂一楼南侧</text>
+              </view>
+           </view>
+        </view>
+         <view></view>
+    </view>
+
+
+
+
+</scroll-view> 
+   

@@ -1,0 +1,13 @@
+<view class = 'section'>
+    <view class = 'section1'>1</view>
+    <view class = 'section2'>2</view>
+</view>
+<view class = 'section'>
+    <view class = 'section1'>4</view>
+    <view class = 'section2'>5</view>
+</view>
+<view class = 'a'>
+  <view class ='moto' bindtap='go'>
+      <text>test2</text>
+  </view>
+</view>

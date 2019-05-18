@@ -1,0 +1,138 @@
+@import "/weui/weui.wxss";
+
+.search{  
+    margin-top: 20px;
+    margin-left:20px; 
+    width: 70%;  
+    }  
+    .search_arr { 
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+      margin-left: 20rpx;  
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+    }  
+    .search_button {
+      margin-top: 20px;   
+      margin-left: 15rpx;  
+      width: 15%;  
+      line-height: 150%;  
+      text-align: center;  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+    }  
+    .up{  
+      display: flex;  
+      flex-direction: row  
+    }  
+    .searchicon {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;    
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center;  
+    }  
+
+
+.middle{
+  align-items: center;
+  margin-top: 20px;
+  margin-left:25px;
+  width:80%;
+  
+  display: flex;
+  flex-direction: row;
+}
+.first{  
+    margin-left: 25rpx;  
+    width: 25%;  
+    line-height: 150%;  
+    text-align: center;  
+    border: 1px solid #d0d0d0;  
+    border-radius: 10rpx;  
+}
+.second{
+    margin-left: 25rpx;  
+    width: 25%;  
+    line-height: 150%;  
+    text-align: center;  
+    border: 1px solid #d0d0d0;  
+    border-radius: 10rpx;
+}
+.thind{
+    margin-left: 25rpx;  
+    width: 25%;  
+    line-height: 150%;  
+    text-align: center;  
+    border: 1px solid #d0d0d0;  
+    border-radius: 10rpx;
+}
+.last{
+    margin-left: 25rpx;  
+    width: 25%;  
+    line-height: 150%;  
+    text-align: center;  
+    border: 1px solid #d0d0d0;  
+    border-radius: 10rpx;
+}
+
+.down{
+  align-items: center;
+  border: 1px solid #d0d0d0;  
+  margin-top: 20px;
+  margin-left:22px;
+  width:85%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.test{
+   border: 1px solid #d0d0d0;  
+  align-items: center;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.down_one{
+  margin:12px;
+  border: 1px solid #d0d0d0;  
+  width:110px;
+  height:130px;
+  display: flex;
+  flex-direction: column;
+}
+.image_one{
+  width:100%;
+  height:100px;
+}
+.price{
+  margin-top:4px;
+  margin-left:5px; 
+  display: flex;
+  flex-direction: row;
+  font-size:10px;
+}
+.price1{
+  width:30%;
+  color: #808080;
+}
+.price2{
+  color:red;
+}
+.place{
+  margin-left:5px; 
+  display: flex;
+  flex-direction: row;
+  font-size:10px;
+}
+.place1{
+  width:30%;
+  color: #808080;
+}
+.place2{
+  color:red;
+}
